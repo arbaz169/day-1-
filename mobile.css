@@ -1,0 +1,24 @@
+#style.css> { }
+@media mobile{
+@media(min-width:300px) and (max-width:900px)
+
+#mainheader{ margin-bottom: 10px; margin-top: 10px; background-color: honeydew; border: 2px solid black; text-align: center; padding:30px; border:"solid"; border-color: gray; border-width: 2px;}
+#mainsection{ margin: 1%; background-color:palegoldenrod; padding: 5%; text-align: center;
+        }
+#mainfooter{ background-color: lightslategray; text-align: left; padding: 2%; margin:0%; font-size: medium;
+border: 2px solid black; margin: 0px;}
+.allblogs{
+display: flex;
+ flex-wrap: wrap; 
+    flex-direction: column;
+}
+.blog {
+    width:60%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+img{
+    width: 95%;
+}
+}
